@@ -77,7 +77,7 @@ export default function Movie() {
               />
               <button
                 onClick={() => AddToWatchList(movie)}
-                className="items-center border border-blue-500 px-4 py-2 rounded mt-2 transform transition-transform duration-300 hover:scale-110 hover:backdrop-brightness-200 hover:text-gray-300"
+                className="items-center border border-blue-500 px-4 py-2 rounded mt-2 transform transition-transform duration-300 hover:scale-110 hover:backdrop-brightness-200 hover:text-gray-500"
               >
                 Add to watchlist
               </button>
