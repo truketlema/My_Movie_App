@@ -52,18 +52,18 @@ export default function Movie() {
   return (
     <div
       className="min-h-screen
-     flex flex-col justify-between"
+    mb-16 flex flex-col justify-between"
     >
       <SearchBar onSearch={SearchByTitle} />
       <Watchlist watchlist={watchList} setWatchList={setWatchList} />
 
-      <h1 className="text-center items-center font-bold text-3xl mb-8 mt-8 ">
+      <h1 className="text-center items-center font-bold text-3xl mb-8 mt-4 ">
         Popular Movies
       </h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
-        <div className="ml-4 grid grid-cols-5 gap-4 mb-8">
+        <div className="ml-4 grid grid-cols-5 gap-4 mb-9">
           {filteredMovies.map((movie) => (
             <div
               key={movie.id}
