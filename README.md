@@ -1,7 +1,8 @@
 # React + TypeScript + Vite
-Deployment:
-``` https://movie-app-t.netlify.app/
-```
+## Live Demo
+
+Check out the live version of the app here: [Live Demo](https://movie-app-t.netlify.app/)
+
 Take a look at my movie app that lets you add movies to your watchlist
 Currently, two official plugins are available:
 
